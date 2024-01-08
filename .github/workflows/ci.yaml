@@ -16,4 +16,4 @@ jobs:
           distribution: 'temurin'
           java-version: ${{ matrix.java }}
       - run: java -cp java AppTest
-      - run: java -cp java App
+      - run: java -cp java Main

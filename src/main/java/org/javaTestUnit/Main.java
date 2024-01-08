@@ -1,9 +1,9 @@
 package org.javaTestUnit;
 
-public class App {
+public class Main {
     public static void main(String[] args) {
         Integer n1 = 11, n2 = 11;
-        App calculation = new App();
+        Main calculation = new Main();
         Integer resultAddition = calculation.addition(n1, n2);
         System.out.println("Result of Addition: " + resultAddition);
     }
