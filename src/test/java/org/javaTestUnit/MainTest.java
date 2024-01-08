@@ -9,7 +9,7 @@ public class MainTest {
     public void addTwoNumbers(){
         Main calculation = new Main();
         Integer resultAddition = calculation.addition(1, 1);
-        Assertions.assertEquals(2, resultAddition);
+        Assertions.assertEquals(3, resultAddition);
     }
 
 }
