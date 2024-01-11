@@ -38,3 +38,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=JDNeto84_pipeline-sonarcloud
+
+      - name: Debugging Step
+        run: |
+          echo "Contents of pom.xml:"
+          cat pom.xml
+          echo "Contents of target/site/jacoco/index.html:"
+          cat target/site/jacoco/index.html
