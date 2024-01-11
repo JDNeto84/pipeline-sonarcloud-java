@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7656e530-d411-4663-9e1c-73e9b817b0c1" name="Changes" comment="add jacoco">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/javaTestUnit/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/javaTestUnit/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaTestUnit/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaTestUnit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaTestUnit/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704935255244</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add jacoco">
+      <option name="closed" value="true" />
+      <created>1704935770731</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1704935770731</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
